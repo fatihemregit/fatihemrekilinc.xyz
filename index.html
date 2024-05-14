@@ -25,7 +25,7 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#projects">Yaptığım Projeler</a>
-            </li>
+          </li>
           </ul>
         </div>
       </nav>
@@ -33,9 +33,9 @@
     <br>
     <br>
     <!-- Hakkımda Bölümü -->
-    <p id="myabout">
+    <div id="myabout">
         <!-- Buraya card görünümü ile hakkımda bir şeyler yazılacak -->
-        <div class="card">
+        <div class="card" style="width: 80%;">
             <div class="card-header">
                 Hakkımda
             </div>
@@ -44,7 +44,7 @@
               <img src="profile_foto.jpg" class="card-image-left" alt="profil fotoğrafı">
               </center>  
                 <h3 class="card-title">Fatih Emre KILINÇ</h3>
-                <p class="card-text">Adım Fatih Emre KILINÇ.20 yaşındayım.Bilgisayar programcılığı 1.sınıf öğrencisiyim.Mobil uygulama ve arka uç alanında gelişmek istiyorum.
+                <p class="card-text">Adım Fatih Emre KILINÇ.21 yaşındayım.Bilgisayar programcılığı 2.sınıf öğrencisiyim(2024 Haziran ayında mezun olacağım). arka uç alanında gelişmek istiyorum.
                   <br>
                   <a href="https://github.com/fatihemregit" target="_blank">
                   <button type="button" class="btn btn-primary" hr>
@@ -56,7 +56,7 @@
                 </a>
                     <!-- Bildiğim Diller ve teknolojiler-->
                     <h4>
-                        Bildiğim Programlam Dilleri Ve teknolojiler
+                        Bildiğim Programlama Dilleri Ve teknolojiler
                     </h4>
                     <!-- grafik şeklinde -->
                     <!-- <canvas id="chart" width="10" height="10"></canvas> -->
@@ -88,7 +88,16 @@
                         </tr>
                         <tr>
                             <td>C#</td>
-                            <td>temel_bilgiler(değişkenler,operatörler,if,else,switch case,fonksiyonlar,dosya işlemleri)</td>
+                            <td>
+                              temel_bilgiler(değişkenler,operatörler,if,else,switch case,fonksiyonlar,dosya işlemleri,oop),
+                              <hr>
+                              asp.net web form(page directives,master pages,postback,server controllers(label,Literal,Textbox,Link,DropDownList,Listbox,Checkbox,validating)),                      
+                              <hr>
+                              asp.net core (Mvc,layout(partial layout,viewstart,external css),Model,Entity Framework,user operations(AuthN)),
+                              <hr>
+                              windows form app(form controllers(textbox,button,checkbox,RadioButton,Combobox,Listbox,Label)),
+                              <hr>
+                            </td>
                         </tr>
                         <tr>
                             <td>Git</td>
@@ -103,16 +112,16 @@
                 </p>
             </div>
         </div>
-    </p>
+      </div>
     <hr>
     <!-- Yapılan Projeler Bölümü -->
-    <p id="projects">
+    <div id="projects" >
       
         <!-- Buraya card görünümü ile yapılan projeler eklenecek -->
         <h3>Yapılan Projeler</h3>
         <!-- 1.satır -->
-        <div class="row">
-            <div class="col-sm-3">
+        <div class="row" style="width: 90% ;">
+            <div class="col-sm">
               <div class="card">
                 <div class="card-body">
                   <h5 class="card-title">Mobil Dental Otomasyonu(flutter)</h5>
@@ -121,7 +130,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-sm-3">
+            <div class="col-sm">
               <div class="card">
                 <div class="card-body">
                   <h5 class="card-title">Zil Programı</h5>
@@ -131,7 +140,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-sm-3">
+            <div class="col-sm">
                 <div class="card">
                   <div class="card-body">
                     <h5 class="card-title">Kotlin Temel</h5>
@@ -140,9 +149,27 @@
                   </div>
                 </div>
               </div>
+              <div class="col-sm">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">RollCallCounter</h5>
+                    <p class="card-text">Üniversite ders devamsızlık tutma otomasyonu</p>
+                    <a href="https://github.com/fatihemregit/RollCallCounter" target="_blank" class="btn btn-primary">Kaynak Koduna Git</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">cvSitesiOdevi</h5>
+                    <p class="card-text">İnternet Programcılığı 1 dersi dönem ödevi</p>
+                    <a href="https://github.com/fatihemregit/cvSitesiOdevi" target="_blank" class="btn btn-primary">Kaynak Koduna Git</a>
+                  </div>
+                </div>
+              </div>
           </div>
       
-    </p>
+        </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <!-- grafik ile ilgili js kodları -->
     <!-- <script>
