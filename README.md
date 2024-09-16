@@ -1,6 +1,6 @@
 # fatihemrekilinc.xyz project
 ## What About
-this project contains codes of my personel website
+This project contains codes of my personel website
 ## Where is the main codes?
 [Here](https://github.com/fatihemregit/fatihemrekilinc.xyz/blob/master/index.html)
 ## Used Frontend framework
